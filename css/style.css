@@ -91,6 +91,20 @@ body {
   cursor: pointer;
 }
 
+.number.active {
+  background-color: hsl(217, 12%, 63%);
+  color: #fff;
+}
+.number:hover {
+  background-color: hsl(25, 97%, 53%);
+  color: #fff;
+}
+
+.thankYouImage {
+  display: flex;
+  justify-content: center;
+}
+
 /* Utilities */
 .circle {
   background-color: #20303d;
@@ -110,4 +124,9 @@ body {
   border-radius: 25px;
   color: #fff;
   cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: hsl(25, 97%, 53%);
 }
