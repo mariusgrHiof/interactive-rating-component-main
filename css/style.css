@@ -104,6 +104,26 @@ body {
   display: flex;
   justify-content: center;
 }
+.rating-circle {
+  display: flex;
+  justify-content: center;
+}
+.card-rating {
+  border-radius: 15px;
+  color: hsl(25, 97%, 53%);
+  background-color: hsl(213, 19%, 18%);
+  padding: 0.6em 1.3em;
+}
+
+.card h2 {
+  color: #fff;
+  text-align: center;
+}
+
+.card-description {
+  text-align: center;
+  line-height: 1.5em;
+}
 
 /* Utilities */
 .circle {
